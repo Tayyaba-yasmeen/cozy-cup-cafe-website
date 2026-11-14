@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozy Cup Café</title>
+    <link rel="stylesheet" href="first.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+    <h1>Cozy Cup Café</h1>
+
+    <p id="statusBanner"></p>
+
+    <p>Fresh Coffee, Delicious Food, and a Cozy Environment</p>
+
+    <button id="themeButton">Dark Mode</button>
+    </header>
+    <!-- Navigation -->
+    <nav> 
+        <a href="#home">Home</a> |
+        <a href="#about">Menu</a> |  
+        <a href="#menu">Menu</a> | 
+        <a href="#offers">Offers</a> | 
+        <a href="#contact">Contact</a> 
+    </nav>
+    <!-- Main Content --> 
+    <main> 
+        <!-- Main Section --> 
+        <section id="home"> 
+            <h2>Welcome to Cozy Cup Café</h2> 
+            <p> Welcome to Cozy Cup Café, a friendly place where you can enjoy freshly prepared coffee, delicious food, and a relaxing atmosphere. </p> 
+            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80" alt="A cup of coffee in a café" width="500" >
+        </section>
+        <section id="about">
+    <h2>About Us</h2>
+
+    <article>
+        <h3>Our Story</h3>
+
+        <p>
+            Cozy Cup Café started with a simple idea of creating a
+            warm and comfortable place where people could enjoy
+            fresh coffee and delicious food.
+        </p>
+
+        <p id="extraText">
+            Over the years, our café has become a friendly place for
+            students, families, and coffee lovers. We focus on fresh
+            ingredients, quality coffee, and a welcoming environment.
+            Our goal is to make every visit comfortable and memorable.
+        </p>
+
+        <button id="readMoreBtn">Read More</button>
+    </article>
+</section>
+        <section id="menu">
+            <h2>Our Popular Items</h2> 
+            <article> 
+                <h3>1. Cappuccino</h3> 
+                <p> Our cappuccino is made with freshly brewed espresso, steamed milk, and creamy milk foam. It is perfect for starting your day. </p> 
+            </article> 
+            <article> 
+                <h3>2. Chocolate Cake</h3> 
+                <p> Our chocolate cake is soft, rich, and covered with delicious chocolate cream. It is one of our most popular desserts. </p> 
+            </article> 
+            <article> 
+                <h3>3. Club Sandwich</h3> 
+                <p> Our club sandwich contains fresh bread, chicken, vegetables, cheese, and our special sauce. It is a perfect choice for lunch. </p> 
+            </article> 
+        </section>
+
+        <!-- List Section --> 
+        <section id="offers"> 
+            <h2>Special Offers</h2> 
+            <p>Today's special combinations:</p> 
+             <ol type="A"> 
+                <li>Cappuccino + Chocolate Cake</li> 
+                <li>Club Sandwich + Fresh Juice</li>
+                <li>Latte + Blueberry Muffin</li> 
+             </ol> 
+             <h3>Why Visit Us?</h3> 
+             <ul> 
+                <li>Freshly prepared food</li> 
+                <li>Fresh coffee</li> 
+                <li>Comfortable environment</li> 
+                <li>Free Wi-Fi</li> 
+            </ul> 
+        </section>
+        <!-- Table --> 
+        <section> 
+            <h2>Menu Price List</h2>
+            <div class="filterButtons">
+    <button id="allButton">All</button>
+    <button id="drinksButton">Drinks</button>
+    <button id="pastriesButton">Pastries</button>
+</div>
+             <table border="1"> 
+                <tr> 
+                    <th>Item</th> 
+                    <th>Category</th> 
+                    <th>Price</th> 
+                </tr> 
+                <tr class="menuRow">
+    <td>Cappuccino</td>
+    <td>Drinks</td>
+    <td>Rs. 450</td>
+</tr>
+
+<tr class="menuRow">
+    <td>Latte</td>
+    <td>Drinks</td>
+    <td>Rs. 400</td>
+</tr>
+
+<tr class="menuRow">
+    <td>Espresso</td>
+    <td>Drinks</td>
+    <td>Rs. 300</td>
+</tr>
+
+<tr class="menuRow">
+    <td>Fresh Juice</td>
+    <td>Drinks</td>
+    <td>Rs. 350</td>
+</tr>
+
+<tr class="menuRow">
+    <td>Chocolate Cake</td>
+    <td>Pastries</td>
+    <td>Rs. 550</td>
+</tr>
+
+<tr class="menuRow">
+    <td>Blueberry Muffin</td>
+    <td>Pastries</td>
+    <td>Rs. 450</td>
+</tr>
+
+<tr class="menuRow">
+    <td>Croissant</td>
+    <td>Pastries</td>
+    <td>Rs. 400</td>
+</tr>
+
+<tr class="menuRow">
+    <td>Cinnamon Roll</td>
+    <td>Pastries</td>
+    <td>Rs. 425</td>
+</tr>          
+</table> 
+```html
+<h2>Select Your Items</h2>
+
+<div class="menuItems">
+
+    <label>
+        <input type="checkbox" class="menuItem" value="450">
+        Cappuccino - Rs. 450
+    </label>
+
+    <label>
+        <input type="checkbox" class="menuItem" value="400">
+        Latte - Rs. 400
+    </label>
+
+    <label>
+        <input type="checkbox" class="menuItem" value="300">
+        Espresso - Rs. 300
+    </label>
+
+    <label>
+        <input type="checkbox" class="menuItem" value="350">
+        Fresh Juice - Rs. 350
+    </label>
+
+    <label>
+        <input type="checkbox" class="menuItem" value="550">
+        Chocolate Cake - Rs. 550
+    </label>
+
+    <label>
+        <input type="checkbox" class="menuItem" value="450">
+        Blueberry Muffin - Rs. 450
+    </label>
+
+    <label>
+        <input type="checkbox" class="menuItem" value="400">
+        Croissant - Rs. 400
+    </label>
+
+    <label>
+        <input type="checkbox" class="menuItem" value="425">
+        Cinnamon Roll - Rs. 425
+    </label>
+
+</div>
+
+<p id="total">Total: Rs. 0</p>
+```
+
+</section>
+        <!-- Form --> 
+        <section id="contact"> 
+            <h2>Book a Table</h2> 
+            <form id="bookingform"> 
+                <label for="name">Name:</label> 
+                <input type="text" id="name" name="name"> 
+                <br><br> 
+                <label for="email">Email:</label> 
+                <input type="email" id="email" name="email"> 
+                <br><br> 
+                <label for="birth-year">Birth Year:</label>
+                <input type="text" id="birth-year" name="birth-year">
+                <!-- Radio buttons --> 
+                <p>Choose your seating:</p> 
+                <input type="radio" id="indoor" name="seating" value="indoor">
+                <label for="indoor">Indoor</label> 
+                <input type="radio" id="outdoor" name="seating" value="outdoor"> 
+                <label for="outdoor">Outdoor</label> 
+                <br><br> 
+                <!-- Checkbox --> 
+                 <input type="checkbox" id="newsletter" name="newsletter"> 
+                 <label for="newsletter"> Subscribe to our newsletter </label> 
+                 <br><br> 
+                 <label for="date">Booking Date:</label> <input type="date" id="date" name="date"> 
+                 <br><br> 
+                 <label for="people">Number of People:</label>
+                 <input type="number" id="people" name="people" min="1" max="20" > 
+                 <br><br> 
+                 <label for="special-notes">Special Order Instructions:</label>
+                <textarea id="special-notes" name="special-notes" rows="4" cols="40" maxlength="100"></textarea>
+                <p id="characterCount">100 characters remaining</p>
+                 <br><br> 
+                 <br><br> 
+                 <button type="submit">Book Table</button> 
+            </form>
+            <p id="formMessage"></p>
+            <p id="discountMessage"></p>
+        </section>
+        </main>
+        <!-- Footer --> 
+        <footer> 
+            <p>&copy; 2026 Cozy Cup Café</p> 
+            <p> Follow us on <a href="https://www.instagram.com/" target="_blank"> Instagram </a> |
+            <a href="https://www.facebook.com/" target="_blank"> Facebook </a> </p>
+        </footer>
+        <script src="script.js"></script>
+</body>
+</html>
