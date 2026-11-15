@@ -43,8 +43,10 @@ To run the website locally, download or clone this repository and open `index.ht
 
 ## Live Demo
 
-[View Cozy Cup Café Website](ADD_YOUR_GITHUB_PAGES_LINK_HERE)
+[View Cozy Cup Café Website]
+https://tayyaba-yasmeen.github.io/cozy-cup-cafe-website/
 
 ## Author
 
 Tayyaba Yasmeen
+
